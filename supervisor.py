@@ -46,7 +46,7 @@ def showPoints1(mainBoard, player1Tile, player2Tile):
 
 #########################################################################################
 
-def supervisor(prog1_name,prog2_name,TIMEOUT_LIMIT=1, verbose=True):
+def supervisor(prog1_name,prog2_name,TIMEOUT_LIMIT=0.5, verbose=True):
     player1_get_move=get_func(prog1_name, 'get_move')
     player2_get_move=get_func(prog2_name, 'get_move')
 
